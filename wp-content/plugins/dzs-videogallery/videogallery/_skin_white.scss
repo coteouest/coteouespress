@@ -1,0 +1,112 @@
+
+.vplayer.skin_white{
+
+
+
+  >.vp-inner{
+    .controls{
+      display: flex;
+
+      align-items: center;
+    }
+    .controls > *:not(.background){
+      flex: 0 0 auto;
+      position: relative;
+
+
+      margin-left: 10px;
+
+
+
+
+    }
+
+    .playcontrols{
+      width: 14px;
+      height: 14px;
+    }
+
+    .controls{
+
+      .background{
+        background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(30,30,30,0.5) 100%);
+
+        height: 120%;
+      }
+
+      .timetext{
+        display: none;
+      }
+      .scrubbar{
+        flex: 1000;
+        bottom: auto;
+        left:0;
+
+        height: 5px;
+
+        .scrub-bg{
+          background-color: #dddddd;
+          opacity: 0.5;
+        }
+        .scrub{
+          background-color: $color_highlight;
+        }
+
+        .scrub-buffer{
+
+          background-color: #dddddd;
+        }
+
+      }
+
+
+
+      .playcontrols, .fscreencontrols,.volumecontrols{
+
+        path,rect,polygon{
+          fill: #ddd;
+          $transition-property: fill;
+          $transition-duration: 0.3s;
+          $transition-timing: ease-out;
+
+          @include apply_transition($transition-property, $transition-duration, $transition-timing);
+        }
+
+      }
+
+
+      .volumecontrols{
+        width: 80px;
+
+        .volume_static{
+          width: 60px;
+          left: auto;
+          right:0;
+          top:-2px;
+
+          .volbar{
+            background-color: #dddddd;
+            opacity: 0.5;
+            height: 80%;
+            top: 10%;
+            border-radius: 2px;
+          }
+          .volbar.active{
+            opacity: 1;
+          }
+        }
+      }
+
+
+
+      .volumecontrols,.timetext,.playcontrols,.fscreencontrols{
+        &:hover{
+          path, polygon, rect {
+            fill: $color_highlight;
+          }
+
+        }
+      }
+    }
+  }
+}

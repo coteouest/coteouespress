@@ -1,0 +1,1 @@
+{"original_term_id":124,"original_term_slug":"a-favorita","original_term_name":"A Favorita","original_site_url":"http:\/\/localhost\/coteouespress","export_type":"meta_term","term_meta":false,"items":[]}
