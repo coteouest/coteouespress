@@ -90,14 +90,14 @@ $table_prefix  = 'coa_';
  */
 define('WP_DEBUG', false);
 
-/* C’est tout, ne touchez pas à ce qui suit ! */
-//define('MULTISITE', true);
-//define('SUBDOMAIN_INSTALL', false);
-//define('DOMAIN_CURRENT_SITE', 'coteouest.local');
-//define('PATH_CURRENT_SITE', '/');
-//define('SITE_ID_CURRENT_SITE', 1);
-//define('BLOG_ID_CURRENT_SITE', 1);
-/** Chemin absolu vers le dossier de WordPress. */
+/* C’est tout, ne touchez pas à ce qui suit !
+define('MULTISITE', true);
+define('SUBDOMAIN_INSTALL', false);
+define('DOMAIN_CURRENT_SITE', 'coteouest.local');
+define('PATH_CURRENT_SITE', '/');
+define('SITE_ID_CURRENT_SITE', 1);
+define('BLOG_ID_CURRENT_SITE', 1);
+Chemin absolu vers le dossier de WordPress. */
 if ( !defined('ABSPATH') )
 	define('ABSPATH', dirname(__FILE__) . '/');
 

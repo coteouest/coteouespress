@@ -40,8 +40,7 @@ get_header(); ?>
                   SE CONNECTER
                 </h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua. Ut enim  laborum.
+                  Connectez-vous à votre espace.
                   <br /><br />
                   <a href="#">
                     Cliquez ici si vous avez déjà un compte
@@ -62,8 +61,7 @@ get_header(); ?>
                   S'ENREGISTRER
                 </h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua. Ut enim  laborum.
+                  Si vous n'avez pas de compte, veuillez en créer un ici.
                   <br /><br />
                   <a href="#">
                     Cliquez ici pour créer un compte
